@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter";
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  height: 55px;
+  width: 100%;
+  display: flex;
+  background: #f55a5a;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.header {
+  color: #ffffff;
+  font-size: 14.4608px;
+}
+
+.headContent {
+  display: flex;
+}
+
+.headContent > img {
+  height: 20px;
+  width: auto;
+  text-align: center;
+  margin: 12px;
+}
+
+.cards {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.card > img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.textInfo {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.textInfo > p {
+  font-size: 11px;
+}
+
+.textInfo > h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.locationInfo {
+  display: flex;
+  align-items: center;
+}
+
+.locationInfo > h3 {
+  margin-left: 3px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+}
+
+.locationInfo > img {
+  width: 7px;
+  height: auto;
+}
+
+.locationInfo > a {
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 10.24px;
+  text-decoration-line: underline;
+  color: #918e9b;
+}
